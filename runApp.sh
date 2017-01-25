@@ -30,4 +30,4 @@ spark-submit --master yarn-client --num-executors 4 --driver-memory 4g --executo
     --conf spark.akka.timeout=200 \
     --conf spark.core.connection.ack.wait.timeout=180 \
     --conf spark.akka.frameSize=256 \
-    --class "com.maprps.uhg.dfhbase.TestHbase" ${DIR}/target/scala-2.10/dfhbase_2.10-0.1.jar
+    --class "com.maprps.dfhbase.TestHbase" ${DIR}/target/scala-2.10/dfhbase_2.10-0.1.jar
